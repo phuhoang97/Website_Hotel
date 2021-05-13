@@ -1,0 +1,320 @@
+.nvabar {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.nav-item {
+  list-style-type: disc !important;
+  margin: 0px 10px 5px;
+}
+
+.top:hover {
+  background-color: white;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.navbar-bracnh img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+select {
+  margin-left: auto;
+  border: none;
+  background-color: #f8f9fa;
+}
+
+.menu {
+  background-color: rgb(240, 239, 239);
+}
+
+.nav-item:hover,
+.nav-item:active {
+  background-color: rgb(175, 129, 129);
+}
+
+#main_book {
+  width: 140px;
+  height: 50px;
+  position: absolute;
+  z-index: 400;
+  border: solid 1px white;
+  text-align: center;
+  line-height: 50px;
+  right: 140px;
+}
+
+#main_book a {
+  text-decoration: none;
+}
+
+#main_book a:hover {
+  color: white;
+}
+
+#main_book:hover {
+  background-color: blue;
+}
+
+/* sidenav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/*Hotel intro*/
+
+.Hotel-infor {
+  margin-top: 50px;
+}
+
+.module-title {
+  text-align: center !important;
+  margin-top: 30px;
+}
+
+.container p {
+  font-size: 20px;
+}
+
+/**/
+.box {
+  width: 350px;
+  height: 610px;
+  border-radius: 10px;
+  box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.infor-hotel {
+  background-color: #f0efed;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.rgb {
+  padding-top: 50px !important;
+}
+
+.text p {
+  font-size: 18px;
+}
+
+.rbc {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rbc img {
+  vertical-align: middle;
+}
+
+.rbc .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.rbd {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rbd {
+  margin-top: 40px;
+}
+
+.rbd img {
+  vertical-align: middle;
+}
+
+.rbd .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.service {
+  margin-top: 30px;
+}
+
+.rcb {
+  border-right: solid 1px whitesmoke;
+}
+
+p.cart-text {
+  font-size: 14px;
+  color: #858585;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+.cd {
+  margin-bottom: 10px;
+}
+
+.item-content {
+  text-align: center;
+}
+
+.item-content h2 {
+  color: #d69c2f;
+}
+
+.item-content h1 {
+  color: #d69c2f;
+}
+
+.fa-facebook-f {
+  color: #23438a;
+}
+
+.fa-twitter {
+  color: #5dacef;
+}
+
+.fa-youtube {
+  color: #f10808;
+}
+
+.fa-instagram-square {
+  color: #a90c0c;
+}
+
+.fab {
+  margin: 0px 20px;
+}
+
+footer {
+  background-color: #1b2f4e !important;
+}
+
+.ft {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ft p {
+  color: white;
+  margin: 10px 0px;
+}
+
+.ft a {
+  color: white;
+}
+
+/*contact*/
+.contact-us {
+  background-image: url("../img/intercontinental-hanoi-4068417518-2x1.jpg");
+}
+
+.contact {
+  padding-top: 50px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.contact h2 {
+  border-bottom: solid 3px #d69c2f;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/***/
